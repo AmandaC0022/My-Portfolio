@@ -61,6 +61,7 @@
   .nav-link h4:hover {
     color:var(--darkblush); 
     transition: color .25s ease-in-out; 
+    cursor: pointer;
   }
   .hover-underline-animation {
     display: inline-block;
