@@ -151,3 +151,17 @@
     flex-direction: column;
   }
 }
+
+/* FOOTER */
+.footer-container {
+  background-image: linear-gradient(white, var(--lightpink)); 
+  color: black; 
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+.footer-container p {
+  color: black; 
+  padding: 5px 20px; 
+  margin-bottom: 0; 
+}
