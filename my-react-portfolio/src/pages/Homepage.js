@@ -1,8 +1,8 @@
-import image from '../images/IMG_3563.png'
+import image from '../images/IMG_3563-2.jpg'
 const Homepage = () => {
     return ( 
         <div className="home-container">
-            <img href={image} alt="my portrait"/> 
+            <img src={image} className="profile-image" alt="my portrait"/> 
             <div className="home-text-container">
                 <h1>Amanda Morgan</h1>
                 <hr/>
