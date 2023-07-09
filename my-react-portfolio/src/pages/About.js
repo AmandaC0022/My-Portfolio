@@ -5,7 +5,7 @@ const About = () => {
         <div className="about-container">
             <h2>About Me</h2>
             <hr/>
-            <p>
+            <p style={{lineHeight:1.7}}>
                 I am a Front-End Web Developer building upon an Art Education background to build a more intuitive user experience on the web. I describe myself as an innovative problem solver, passionate about creative user interface design, with a focus on mobile-first development. With each project, my aim is to best engage my audience for an impactful user experience. I’m excited to leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web. 
             </p>
             <h2>Education</h2>
@@ -58,8 +58,9 @@ const About = () => {
                 </div>
             </div>
             <h2>Links</h2>
-            <Link to="/">LinkedIn</Link>
-            <Link to="/">Github</Link>
+            <hr/>
+            <Link className="about-link" to="/"><p>LinkedIn</p></Link>
+            <Link className="about-link" to="/"><p>Github</p></Link>
         </div>
      );
 }

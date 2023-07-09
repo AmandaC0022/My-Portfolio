@@ -1,12 +1,17 @@
-import { Link } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 const Navbar = () => {
+    const location = useLocation(); 
+    const { pathname } = location; 
+    const splitLocation = pathname.split('/'); 
+
     return ( 
         <div>
             <div className="navbar-container">
-                <Link className="nav-link hover-underline-animation" to="/about"><h4>About Me</h4></Link> 
-                <Link className="nav-link hover-underline-animation" to="/"><h4>Projects</h4></Link> 
-                <Link className="nav-link hover-underline-animation" to="/"><h4>Resume</h4></Link> 
+                <NavLink activeClassName="active" className={splitLocation[1] === "" ? "active" : ""} to="/"><h4 className="nav-link hover-underline-animation">Home</h4></NavLink>
+                <NavLink activeClassName="active" to="/about"><h4 className="nav-link hover-underline-animation">About Me</h4></NavLink> 
+                <NavLink activeClassName="active" to="/"><h4 className="nav-link hover-underline-animation">Projects</h4></NavLink> 
+                <NavLink activeClassName="active" to="/"><h4 className="nav-link hover-underline-animation">Resume</h4></NavLink> 
             </div>
         </div>
      );

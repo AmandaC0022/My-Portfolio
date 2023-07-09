@@ -41,6 +41,10 @@
     font-size: 16px; 
     color: var(--lightpink); 
   }
+  li {
+    font-size: 16px; 
+    color: var(--lightpink);
+  }
   hr {
     border-bottom-color:var(--darkblush);  
   }
@@ -53,12 +57,12 @@
     background-image: linear-gradient(white, var(--lightpink));
   }
   .nav-link {
-    margin: 0 10px; 
-    padding: 0 10px; 
+    margin: 10px 10px; 
+    padding: 10px 10px; 
     text-decoration: none;
     /* margin-bottom: 10px;  */
   }
-  .nav-link h4:hover {
+  .nav-link:hover {
     color:var(--darkblush); 
     transition: color .25s ease-in-out; 
     cursor: pointer;
@@ -66,7 +70,7 @@
   .hover-underline-animation {
     display: inline-block;
     position: relative;
-    color: black;
+    color: var(--blush);
   }
   .hover-underline-animation::after {
     content: '';
@@ -88,6 +92,16 @@
     .navbar-container {
       justify-content: space-between;
     }
+    .nav-link {
+      margin:0; 
+    }
+  }
+  .active h4{
+    color: var(--darkblush); 
+  }
+  .active .hover-underline-animation::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
   }
 
 /* HOMEPAGE */
@@ -122,3 +136,18 @@
       width: 70%; 
     }
   }
+
+  /* ABOUT ME */
+.skills-list {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about-link {
+  color: var(--lightpink); 
+}
+@media screen and (max-height: 786px) {
+  .skills-list {
+    flex-direction: column;
+  }
+}
