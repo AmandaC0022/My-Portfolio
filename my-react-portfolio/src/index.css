@@ -2,7 +2,7 @@
     --lightpink: #FFDAE5; 
     --pink: #FFBEC9; 
     --blush: #F1A3AD;  
-    --darkblush: #D48893; 
+    --darkblush: #b7717b; 
   }
   .body {
     margin-right: 10%;
@@ -175,3 +175,34 @@
 }
 
 /* PROJECTS */
+.project img{
+  border-radius: 50%;
+  width: 100%; 
+}
+.project {
+  width: 30%; 
+  margin:20px 0px; 
+}
+.project h4 {
+  text-align: center;
+}
+.project-container {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 50px; 
+}
+.custombtn {
+  background-color: var(--lightpink);
+  padding:10px 30px; 
+  text-align: center;
+  border-radius: 25px;
+  border: 2px solid var(--darkblush); 
+}
+.custombtn a {
+  color: black; 
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
