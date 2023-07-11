@@ -80,12 +80,17 @@ const Projects = () => {
             <div className="project-container">
                 {projectList.map((project) => (
                     <div className="project">
-                        <img src={project.image} alt={project.url}/>
+                        <div className="container">
+                            <img src={project.image} alt={project.url}/>
+                            <div className="overlay">
+                                <button className="custombtn"><a href={project.url} target="_blank" rel="noreferrer">Visit Site</a></button>
+                            </div>
+                        </div>
                         <h4>{project.title}</h4>
+                        <button className="custombtn mobilebtn"><a href={project.url} target="_blank" rel="noreferrer">Visit Site</a></button>
                         <p>Role: {project.role}</p>
                         <p>Framework: {project.framework}</p>
                         <p>{project.description}</p>
-                        {/* <button className="custombtn"><a href={project.url} target="_blank">Visit Site</a></button> */}
                     </div>
                 ))}
             </div>
