@@ -153,6 +153,9 @@
 .about-link {
   color: var(--lightpink); 
 }
+.about-container {
+  padding-bottom: 50px; 
+}
 @media screen and (max-width: 786px) {
   .skills-list {
     flex-direction: column;
@@ -248,7 +251,7 @@
 
 /* RESUME */
 .resume-container {
-  padding-bottom: 20%; 
+  padding-bottom: 60px; 
 }
 @media screen and (max-width:786px) {
   .resume-container object {

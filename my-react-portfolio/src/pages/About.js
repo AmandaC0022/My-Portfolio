@@ -38,7 +38,7 @@ const About = () => {
                 <div>
                     <h4>Power User</h4>
                     <ul>
-                        <li>Magento Commerce 2</li>
+                        <li>Abobe Commerce (Magento 2)</li>
                         <li>Wordpress</li>
                         <li>Cognito Forms</li>
                         <li>Beaconstac</li>
