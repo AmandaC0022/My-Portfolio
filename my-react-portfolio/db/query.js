@@ -6,7 +6,7 @@ class DB {
     }
     findAllProjects(){
         return this.connection.promise().query(
-            "SELECT * FROM project"
+            "SELECT * FROM project ORDER BY sortorder"
         )
     }
 }
