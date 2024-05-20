@@ -1,14 +1,15 @@
 const mysql = require('mysql');
+require('dotenv').config();
 
 // Connect to database
 const db = mysql.createConnection(
   {
     host: 'localhost',
-    user: 'root',
-    password: 'portfolio',
-    database: 'portfolio_db',
+    user: DB_USER,
+    password: DB_PW,
+    database: DB_NAME,
   },
-  console.log('Connected to the portfolio_db database.')
+  console.log('Connected to the database.')
 );
 
 module.exports = db; 

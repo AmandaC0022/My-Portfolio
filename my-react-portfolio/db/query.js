@@ -1,4 +1,4 @@
-const connection = require('../server'); 
+const connection = require('./server'); 
 
 class DB {
     constructor(connection) {
@@ -6,7 +6,7 @@ class DB {
     }
     findAllProjects(){
         return this.connection.promise().query(
-            "SELECT * FROM projects"
+            "SELECT * FROM project"
         )
     }
 }

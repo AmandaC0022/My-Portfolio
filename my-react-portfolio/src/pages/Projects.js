@@ -11,6 +11,14 @@ const Projects = () => {
     const projectList = [
         {
             image:`${scimage}`, 
+            title:"checkworks.com",
+            url:"https://checkworks.com/", 
+            role:"Frontend Developer and UX Designer", 
+            framework:"Custom built with React and TypeScript frontend and C#, .NET backend and MySQL database", 
+            description:"As apart of the Ecommerce team, I designed and built responsive full stack code  ", 
+        }, 
+        {
+            image:`${scimage}`, 
             title:"summerclassics.com",
             url:"https://summerclassics.com/", 
             role:"Project Manager, UX Designer, Power User and Business Analyst", 
