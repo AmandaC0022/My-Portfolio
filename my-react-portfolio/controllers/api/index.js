@@ -1,8 +1,6 @@
 const router = require('express').Router();
-const hashtagRoutes = require("./hashtagRoutes");
-const collectiontagRoutes = require("./collectiontagRoutes");
+const projectRoutes = require("./projectRoutes")
 
-router.use("/hashtags", hashtagRoutes);
-router.use("/collectiontags", collectiontagRoutes);
+router.use("/projects", projectRoutes); 
 
 module.exports = router;
