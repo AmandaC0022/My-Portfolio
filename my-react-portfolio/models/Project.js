@@ -38,7 +38,7 @@ Project.init(
             allowNull: false
         }, 
         sortorder: {
-            type: DataTypes.INETGER,
+            type: DataTypes.INTEGER,
             allowNull: false
         }, 
     },
