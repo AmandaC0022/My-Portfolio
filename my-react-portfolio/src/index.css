@@ -155,21 +155,6 @@
   }
 }
 
-/* FOOTER */
-.footer-container {
-  background-image: linear-gradient(white, var(--lightpink)); 
-  color: black; 
-  text-align: center;
-  position: absolute; 
-  bottom: 0;
-  width: 100%;
-}
-.footer-container p {
-  color: black; 
-  padding: 0px 0px 10px 0px; 
-  margin-bottom: 0; 
-}
-
 /* PROJECTS */
 .project img{
   border-radius: 50%;
