@@ -2,14 +2,14 @@ import './index.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 //PAGES
-import Homepage from './pages/Homepage'; 
-import About from './pages/About'; 
-import Projects from './pages/Projects';
-import Resume from './pages/Resume'; 
+import Homepage from './pages/Homepage/Homepage'; 
+import About from './pages/About/About'; 
+import Projects from './pages/Projects/Projects';
+import Resume from './pages/Resume/Resume'; 
 
 // COMPONENTS
-import Footer from './components/Footer'; 
-import Navbar from './components/Navbar';
+import Footer from './components/Footer/Footer'; 
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (

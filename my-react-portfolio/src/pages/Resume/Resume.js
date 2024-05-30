@@ -1,4 +1,4 @@
-import pdf from '../images/2024WebDevelopmentResume.pdf'; 
+import pdf from '../../images/2024WebDevelopmentResume.pdf'; 
 
 const Resume = () => {
     return ( 

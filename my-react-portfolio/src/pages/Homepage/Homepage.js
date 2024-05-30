@@ -1,4 +1,5 @@
-import image from '../images/IMG_3563-2.jpg'
+import image from '../../images/IMG_3563-2.jpg'; 
+
 const Homepage = () => {
     return ( 
         <div className="home-container">

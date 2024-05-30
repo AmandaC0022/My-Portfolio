@@ -1,7 +1,7 @@
 {
     "projects": [
         {
-            "imagepath":"/static/media/Kuka-Home-Furnishings.ad0484dd815585fe1c4c.jpg", 
+            "imagepath":"../static/media/Kuka-Home-Furnishings.ad0484dd815585fe1c4c.jpg", 
             "title":"kukahomeusa.com",
             "url":"https://kukahomeusa.com/", 
             "company":"Ansel & Anderson", 

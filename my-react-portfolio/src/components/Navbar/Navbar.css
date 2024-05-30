@@ -1,0 +1,40 @@
+.navbar-container{
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: var(--peach-gradient); 
+    border-radius: 0 0 40px 40px; 
+  }
+
+  .navbar-container a {
+    text-decoration: none;
+  }
+
+  .nav-link {
+    margin: 10px 10px; 
+    padding: 10px 10px; 
+    color:white; 
+  }
+
+  .nav-link:hover {
+    color:var(--blue); 
+    transition: color .25s ease-in-out; 
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width:768px) {
+    .navbar-container {
+      justify-content: space-between;
+    }
+    .nav-link {
+      margin:0; 
+    }
+  }
+  .active h4{
+    color: var(--darkblush); 
+  }
+  .active .hover-underline-animation::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
