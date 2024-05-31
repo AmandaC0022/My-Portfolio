@@ -30,11 +30,9 @@
     .nav-link {
       margin:0; 
     }
-  }
-  .active h4{
-    color: var(--darkblush); 
-  }
-  .active .hover-underline-animation::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+    .navbar-container {
+      flex-wrap: wrap; 
+      justify-content: center; 
+      padding: 0px 15px; 
+    }
   }
