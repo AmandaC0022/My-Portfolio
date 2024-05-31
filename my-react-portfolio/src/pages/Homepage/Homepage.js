@@ -1,5 +1,6 @@
 import image from '../../images/IMG_3563-2.jpg'; 
 import './Homepage.css'; 
+import Circles from '../../components/Circles/Circles'; 
 
 const Homepage = () => {
     return ( 
@@ -8,22 +9,10 @@ const Homepage = () => {
                 <div className="background-box">
                     <img src={image} className="profile-image" alt="Amanda Morgan"/> 
                 </div>
-                <div className="circle-container">
-                    <span className="circle1"></span>
-                    <span className="circle2"></span>
-                    <span className="circle3"></span>
-                    <span className="circle4"></span>
-                    <span className="circle5"></span>
-                </div>
+                <Circles/>
             </div>
             <div className="home-right-container">
-                <div className="circle-container">
-                    <span className="circle1"></span>
-                    <span className="circle2"></span>
-                    <span className="circle3"></span>
-                    <span className="circle4"></span>
-                    <span className="circle5"></span>
-                </div>
+                <Circles/>
                 <div className="home-text-container">
                     <h1>Amanda Morgan</h1>
                     <div className="titles">

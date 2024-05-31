@@ -17,6 +17,7 @@
     flex-direction: column;
     width: 50%; 
     align-items: flex-end; 
+    margin-top:5%; 
   }
 .titles {
     display: flex; 
@@ -36,13 +37,6 @@
     margin-bottom: -4px; 
     width: 100%; 
   }
-  .circle-container {
-    display: flex; 
-    flex-direction: row;
-  }
-  .circle-container span {
-    margin: 10px; 
-  }
   .home-text-container {
     background: var(--pink-gradient); 
     padding: 30px; 
@@ -61,6 +55,7 @@
     .home-left-container {
         width: 100%; 
         align-items: center; 
+        margin-top: 5%; 
     }
     .home-right-container {
         width: 100%;  
