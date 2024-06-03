@@ -10,12 +10,14 @@
     width: 48%; 
     display: flex; 
     flex-direction: column;
+    margin-right: 20px; 
 }
 .right-container {
     width: 50%; 
     display: flex; 
     flex-direction: column;
     align-items: flex-end;
+    margin-left: 20px; 
 }
 .about-block {
     padding: 30px; 
@@ -77,7 +79,25 @@
 }
 
 @media screen and (max-width: 786px) {
-.skills-list {
-    flex-direction: column;
-}
+    .about-container {
+        flex-wrap: wrap;
+    }
+    .left-container, .right-container {
+        width: 100%; 
+    }
+    .left-container {
+        height: auto;  
+    }
+    .right-container {
+        align-items: flex-start;
+    }
+    .education-block {
+        margin-bottom: 0; 
+    }
+    .contact-block {
+        margin-bottom: 20%; 
+    }
+    .skills {
+        width: 50%; 
+    }
 }
