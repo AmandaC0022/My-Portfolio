@@ -16,6 +16,9 @@
     padding: 10px 10px; 
     color:white; 
   }
+  .active h5 {
+    color: var(--teal); 
+  }
 
   .nav-link:hover {
     color:var(--blue); 

@@ -4,7 +4,7 @@ import Circles from '../../components/Circles/Circles';
 
 const About = () => {
     return ( 
-        <div className="about-container">
+        <div className="about-container fadeIn">
             <div className="left-container">
                 <div className="about-block">
                     <h1>About Me</h1>

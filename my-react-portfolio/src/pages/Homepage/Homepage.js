@@ -4,7 +4,7 @@ import Circles from '../../components/Circles/Circles';
 
 const Homepage = () => {
     return ( 
-        <div className="home-container">
+        <div className="home-container fadeIn">
             <div className="home-left-container">
                 <div className="background-box">
                     <img src={image} className="profile-image" alt="Amanda Morgan"/> 
