@@ -1,0 +1,290 @@
+{
+    "projects": [
+        {
+            "imagepath":"../static/media/Kuka-Home-Furnishings.ad0484dd815585fe1c4c.jpg", 
+            "title":"kukahomeusa.com",
+            "url":"https://kukahomeusa.com/", 
+            "company":"Ansel & Anderson", 
+            "role":"UI Developer and Designer", 
+            "framework":"Wordpress", 
+            "technologies":[
+                "HTML", 
+                "CSS", 
+                "Site Editor PlugIn", 
+                "SEO", 
+                "ADA Compliancy", 
+                "Asana"
+            ], 
+            "roledescription":"As a current client's website, I am solely in charge of maintaining and monitoring functionality and usability of this website.", 
+            "workexamples":[
+                {
+                    "title":"Becki Owens Collection Page", 
+                    "description":"I completely redesigned and rebuilt this page to feature their new collaboration with the exclusive interior designer Becki Owens. This page was the first on the website to be solely optimized for an enjoyable experience on mobile and tablet as well as competely ADA compliant.", 
+                    "projecturl":"https://kukahomeusa.com/discover-our-collections/becki-owens-home/"
+                }, 
+                {
+                    "title":"Contact Us Page", 
+                    "description":"By adding a new layout and custom code, I created a more inviting and informative contact us page.", 
+                    "projecturl":"https://kukahomeusa.com/contact-us/"
+                } 
+            ]
+        },
+        {
+            "imagepath":"/static/media/Bluestock.0e1bd4131f08bc936ad6.jpg", 
+            "title":"bluestockadvisors.com",
+            "url":"https://bluestockadvisors.com/", 
+            "company":"Ansel & Anderson",
+            "role":"UI Developer and Designer", 
+            "framework":"Wix", 
+            "technologies":[
+                "SEO Optimization", 
+                "Responsive Web Design", 
+                "ADA Compliancy"
+            ], 
+            "description":"I joined the team right as we were about to launch this website. They hired me to optimize the user experience for monitor, tablet and mobile screens. Along with improving the web experience, I also was soley in charge of optimizing the site for SEO and ADA compliancy.",
+            "workexamples":[
+                {
+                    "title":"Our Client Carousel", 
+                    "description":"Our client asked for an infitity slider as a solution to list out their clients. I built out this autoplay carousel instead that loops infinitly through their clients.", 
+                    "projecturl":"https://www.bluestockadvisors.com/"
+                }, 
+                {
+                    "title":"Four Primary Service Areas Tab & Mini Nav", 
+                    "description":"I noticed that the user was having to jump around to several pages to get to the next service areas page. I suggested and built a mini navigation so the user can now easily access all four service area pages.", 
+                    "projecturl":"https://www.bluestockadvisors.com/growth-strategy"
+                }, 
+                {
+                    "title":"Tab Layout and Design", 
+                    "description":"I changed all of the settings on each of the tab elements to all have the exact same transition effects, colors, fonts, margin, padding and spacing throughout all of the different viewports.", 
+                    "projecturl":"https://www.bluestockadvisors.com/approach"
+                }
+                
+            ]
+        },
+        {
+            "imagepath":"/static/media/IMG_0041.15ecd4bb137b28a64fda.jpg", 
+            "title":"checksforfree.com",
+            "url":"https://checksforfree.com/",
+            "company":"Main Street Inc.",
+            "role":"Frontend Developer and UX Designer", 
+            "framework":"Custom Build", 
+            "technologies":[
+                "React", 
+                "Node.js", 
+                "JSX", 
+                "JavaScript",
+                "TypeScript", 
+                "CSS", 
+                "C#", 
+                ".NET", 
+                "Docker", 
+                "Visual Studio", 
+                "MySQL", 
+                "MySQL Server", 
+                "FullStory", 
+                "Google Analytics", 
+                "Jira"
+            ], 
+            "description":"As a newly launched website when I started, I was in charge of monitoring user behavior and pin point user frustration. Then design an appropriate solution. I added a section where a user can select a woodcut and then the selected woodcut shows in their cart.", 
+            "workexamples":[
+                {
+                    "title":"Hero Banners", 
+                    "description":"Originally, the banner was just a static image without alt text. My goal was to build a responsive, changeable banner that showcased a hierarchy and had the ability to add multiple sub banners. I was able to create additional columns in the database to insert more data then create CSS code to set different styles based on how many rows returned with my query as well as alt text for the images.", 
+                    "projecturl":"https://checksforfree.com/"
+                }, 
+                {
+                    "title":"Rebranding", 
+                    "description":"As a newly launched site, I looked closely at SEO and the user behavior. I noticed that the original site was missing a brand guideline and consistent typeface, color scheme and image sizes. Using Adobe XD, I created Digital Brand Guidelines for both ChecksforFree and CheckWorks sites then using CSS, I implemented the approved changes.", 
+                    "projecturl":"https://checkworks.com/category/personal-checks"
+                }
+            ]
+        },
+        {
+            "imagepath":"/static/media/IMG_0040.41defa44afc586ba9430.jpg", 
+            "title":"checkworks.com",
+            "url":"https://checkworks.com/", 
+            "company":"Main Street Inc.",
+            "role":"Frontend Developer and UX Designer", 
+            "framework":"Custom Build", 
+            "technologies":[
+                "React", 
+                "Node.js", 
+                "JSX", 
+                "JavaScript", 
+                "TypeScript",
+                "CSS", 
+                "C#",  
+                ".NET", 
+                "Docker", 
+                "Visual Studio", 
+                "MySQL", 
+                "MySQL Server", 
+                "FullStory", 
+                "Google Analytics", 
+                "Jira"
+            ], 
+            "description":"As apart of the Ecommerce team, I designed and built responsive, full stack code to optimize the user experience. Two projects that I accomplished was to add the bullet points to the product descriptions and to optimize all product images for faster loading time.", 
+            "workexamples":[
+                {
+                    "title":"Header Hierarchy", 
+                    "description":"While monitoring SEO, I noticed that the main category pages were missing meta titles and descriptions as well as proper h1s. I again added columns in the database to house this data and updated the queries to pull in the new data and display within a React NPM package called Helmet.", 
+                    "projecturl":"https://checkworks.com/category/personal-checks"
+                }, 
+                {
+                    "title":"Image Optimization", 
+                    "description":"While monitoring user behavior using FullStory, I noticed that most of our users were really struggling with page loads. I looked closer and realized that the website was not pulling in thumbnail images but rather the large images on all of the category pages. I collaborated with marketing to get all of the images resized, then uploaded them to AWS and loaded them on the category pages. So now thumbnail images are being utilized on the category pages and the full sized images are rendering on the product detail page as well as alt text. It significantly improved the site's loading speeds and ADA compliancy.", 
+                    "projecturl":"https://checkworks.com/category/personal-checks"
+                }
+            ]
+        }, 
+        {
+            "imagepath":"/static/media/IMG_7369.9e85ae0b74f7cd75fa7b.jpg", 
+            "title":"summerclassics.com",
+            "url":"https://summerclassics.com/", 
+            "company":"Gabriella White",
+            "role":"UX Designer and Developer", 
+            "framework":"Magento", 
+            "technologies":[
+                "Magento", 
+                "HTML", 
+                "CSS", 
+                "JavaScript",
+                "Cognito Forms", 
+                "", 
+                "Google Analytics"
+            ], 
+            "description":"I was a part of a small internal team that project managers, designed, developed and launched this Magento Commerce site. Post launch, I continue to manage, design and develop new user interfaces within the magento framework.", 
+            "workexamples":[
+                {
+                    "title":"Header Hierarchy", 
+                    "description":"While monitoring SEO, I noticed that the main category pages were missing meta titles and descriptions as well as proper h1s. I again added columns in the database to house this data and updated the queries to pull in the new data and display within a React NPM package called Helmet.", 
+                    "projecturl":"https://checkworks.com/category/personal-checks"
+                }, 
+                {
+                    "title":"Image Optimization", 
+                    "description":"While monitoring user behavior using FullStory, I noticed that most of our users were really struggling with page loads. I looked closer and realized that the website was not pulling in thumbnail images but rather the large images on all of the category pages. I collaborated with marketing to get all of the images resized, then uploaded them to AWS and loaded them on the category pages. So now thumbnail images are being utilized on the category pages and the full sized images are rendering on the product detail page as well as alt text. It significantly improved the site's loading speeds and ADA compliancy.", 
+                    "projecturl":"https://checkworks.com/category/personal-checks"
+                }
+            ]
+        },
+        {
+            "imagepath":"/static/media/IMG_7365.911f46c116218b10532d.jpg", 
+            "title":"gabby.com", 
+            "url":"https://gabby.com/",
+            "company":"Gabriella White",
+            "role":"Project Manager, UX Designer, Power User and Business Analyst", 
+            "framework":"Magento",
+            "technologies":"", 
+            "description":"This site is the sister brand to Summer Classics. This site was launched accompanying the launch of summerclassics.com. Post launch, I continue to design, develop, and manage this Magneto Commerce site.", 
+            "workexamples":[
+                "1", 
+                "2", 
+                "3"
+            ]
+        },
+        {
+            "imagepath":"/static/media/IMG_7367.8ee15c357d708e945d08.jpg", 
+            "title":"fabrics.gabby.com", 
+            "url":"https://fabrics.gabby.com/",
+            "company":"Gabriella White",
+            "role":"Project Manager, UX Designer, Power User and Business Analyst", 
+            "framework":"Wordpress",
+            "technologies":"", 
+            "description":"This site handles free fabric samples orders. I worked with an outside agency to develop and design this Wordpress WooComerce site. This site launched a week prior to the launch of the E-commerce sites. Post launch, I am managing the product data.", 
+            "workexamples":[
+                "1", 
+                "2", 
+                "3"
+            ]
+        }, 
+        {
+            "imagepath":"/static/media/IMG_7368.d740d264bae26b13e90d.jpg", 
+            "title":"fabrics.summerclassics.com", 
+            "url":"https://fabrics.summerclassics.com/",
+            "company":"Gabriella White",
+            "role":"Project Manager, UX Designer, Power User and Business Analyst", 
+            "framework":"Wordpress",
+            "technologies":"", 
+            "description":"This site handles free fabric samples orders for summer classics outdoor performance fabrics. I worked with an outside agency to develop and design this Wordpress WooComerce site. This site launched a week prior to the launch of the E-commerce sites. Post launch, I am managing the product data.", 
+            "workexamples":[
+                "1", 
+                "2", 
+                "3"
+            ]
+        },
+        {
+            "imagepath":"/static/media/IMG_7366.7dee4028caff97f268dc.jpg", 
+            "title":"contract.summerclassics.com", 
+            "url":"https://contract.summerclassics.com/",
+            "company":"Gabriella White",
+            "role":"Power User and Business Analyst", 
+            "framework":"Magento",
+            "technologies":"", 
+            "description":"I handle the daily oppations for this site. I worked with a software developer to generate product feeds from the ERP system. This site is now entirely feed and populated by those feeds. Now, I just handle content updates.", 
+            "workexamples":[
+                "1", 
+                "2", 
+                "3"
+            ]
+        },
+        {
+            "imagepath": "", 
+            "title":"trade.summerclassics.com", 
+            "url":"https://trade.summerclassics.com/",
+            "company":"Gabriella White", 
+            "framework":"Magento", 
+            "technologies":"", 
+            "description":"", 
+            "workexamples":[
+                "1", 
+                "2", 
+                "3"
+            ]
+        }, 
+        {
+            "imagepath": "", 
+            "title":"trade.gabby.com", 
+            "url":"https://trade.gabby.com/",
+            "company":"Gabriella White", 
+            "framework":"Magento", 
+            "technologies":"", 
+            "description":"", 
+            "workexamples":[
+                "1", 
+                "2", 
+                "3"
+            ]
+        }, 
+        {
+            "imagepath":"/static/media/IMG_7369.9e85ae0b74f7cd75fa7b.jpg", 
+            "title": "summerclassics.com/blog", 
+            "url":"https://summerclassics.com/blog/",
+            "company":"Gabriella White",
+            "role":"Project Manager, UX Designer and Power User", 
+            "framework":"Wordpress",
+            "technologies":"", 
+            "description":"I was head of a small team to build this content site. I worked very closely with an outside agency to design and develop this site. This site was launch in random with the new Commerce sites. Post launch, I manage this site and handle all content updates.", 
+            "workexamples":[
+                "1", 
+                "2", 
+                "3"
+            ]
+        },
+        {
+            "imagepath":"/static/media/IMG_7370.e32ab30b6fa0fe4c013d.jpg", 
+            "title": "gabby.com/blog/", 
+            "url":"https://gabby.com/blog",
+            "company":"Gabriella White",
+            "role":"Project Manager, UX Designer and Power User", 
+            "framework":"Wordpress",
+            "technologies":"", 
+            "description":"This is the sister site to blog.summerclassics.com. Post launch, I now manage this site and handle all content updates.", 
+            "workexamples":[
+                "1", 
+                "2", 
+                "3"
+            ]
+        }
+
+    ]
+}

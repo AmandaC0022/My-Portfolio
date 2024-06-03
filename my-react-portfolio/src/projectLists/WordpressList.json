@@ -1,0 +1,77 @@
+{
+    "projects": [
+        {
+            "imagepath":"/static/media/IMG_7369.9e85ae0b74f7cd75fa7b.jpg", 
+            "title":"summerclassics.com",
+            "url":"https://summerclassics.com/", 
+            "company":"Gabriella White",
+            "role":"Project Manager, UX Designer, UI Developer", 
+            "framework":"Magento", 
+            "technologies": "", 
+            "description":"I was a part of a small internal team that project managers, designed, developed and launched this Magento Commerce site. Post launch, I continue to manage, design and develop new user interfaces within the magento framework.", 
+            "workexamples":[
+                "1", 
+                "2", 
+                "3"
+            ] 
+        },
+        {
+            "imagepath":"/static/media/IMG_7365.911f46c116218b10532d.jpg", 
+            "title":"gabby.com", 
+            "url":"https://gabby.com/",
+            "company":"Gabriella White",
+            "role":"Project Manager, UX Designer, Power User and Business Analyst", 
+            "framework":"Magento",
+            "technologies":"", 
+            "description":"This site is the sister brand to Summer Classics. This site was launched accompanying the launch of summerclassics.com. Post launch, I continue to design, develop, and manage this Magneto Commerce site.", 
+            "workexamples":[
+                "1", 
+                "2", 
+                "3"
+            ] 
+        },
+        {
+            "imagepath":"/static/media/IMG_7366.7dee4028caff97f268dc.jpg", 
+            "title":"contract.summerclassics.com", 
+            "url":"https://contract.summerclassics.com/",
+            "company":"Gabriella White",
+            "role":"Power User and Business Analyst", 
+            "framework":"Magento",
+            "technologies":"", 
+            "description":"I handle the daily oppations for this site. I worked with a software developer to generate product feeds from the ERP system. This site is now entirely feed and populated by those feeds. Now, I just handle content updates.", 
+            "workexamples":[
+                "1", 
+                "2", 
+                "3"
+            ] 
+        },
+        {
+            "imagepath": "", 
+            "title":"trade.summerclassics.com", 
+            "url":"https://trade.summerclassics.com/",
+            "company":"Gabriella White", 
+            "framework":"Magento", 
+            "technologies":"", 
+            "description":"", 
+            "workexamples":[
+                "1", 
+                "2", 
+                "3"
+            ]
+        }, 
+        {
+            "imagepath": "", 
+            "title":"trade.gabby.com", 
+            "url":"https://trade.gabby.com/",
+            "company":"Gabriella White", 
+            "framework":"Magento", 
+            "technologies":"", 
+            "description":"", 
+            "workexamples":[
+                "1", 
+                "2", 
+                "3"
+            ]
+        }
+    ]
+}

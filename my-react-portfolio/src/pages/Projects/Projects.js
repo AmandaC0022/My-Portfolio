@@ -1,3 +1,5 @@
+
+import './Projects.css'; 
 import bluestockimage from "../../images/Bluestock.jpg"; 
 import cwimage from '../../images/IMG_0040.jpg'; 
 import cffimage from '../../images/IMG_0041.jpg';
@@ -9,17 +11,15 @@ import scfabrics from '../../images/IMG_7368.jpg';
 import contractimage from '../../images/IMG_7366.jpg';   
 import scblog from '../../images/IMG_7369.jpg'; 
 import gabbyblog from '../../images/IMG_7370.jpg';
-import ProjectList from '../../projects/ProjectList.json';  
+import AllProjectList from '../../projectLists/AllProjectList.json';  
 // import gergsworld from '../images/'; 
 
 const Projects = () => {
-    console.log(ProjectList); 
     return ( 
         <div>
             <h2>Projects</h2>
-            <hr/>
-            <div className="project-container">
-                {ProjectList.projects.map((project) => (
+            <div className="project-container fadeIn">
+                {AllProjectList.projects.map((project) => (
                     <div className="project">
                         <div className="container">
                             <img src={bluestockimage} alt={project.url}/>
