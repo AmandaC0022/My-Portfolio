@@ -79,13 +79,3 @@
     border-radius: 50%;
     display: inline-block;
   }
-
-/* RESUME */
-.resume-container {
-  padding-bottom: 60px; 
-}
-@media screen and (max-width:786px) {
-  .resume-container object {
-    height: 250px; 
-  }
-}
