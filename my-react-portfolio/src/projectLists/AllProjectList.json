@@ -150,20 +150,28 @@
                 "CSS", 
                 "JavaScript",
                 "Cognito Forms", 
-                "", 
+                "Trello", 
+                "SEO", 
+                "Termly", 
+                "uRapidFlow", 
                 "Google Analytics"
             ], 
-            "description":"I was a part of a small internal team that project managers, designed, developed and launched this Magento Commerce site. Post launch, I continue to manage, design and develop new user interfaces within the magento framework.", 
+            "description":"I was a part of a small internal team that project managed, designed, developed and launched this Magento E-Commerce site. Post launch, I continued to manage, design and develop new user interfaces within the magento framework.", 
             "workexamples":[
                 {
-                    "title":"Header Hierarchy", 
-                    "description":"While monitoring SEO, I noticed that the main category pages were missing meta titles and descriptions as well as proper h1s. I again added columns in the database to house this data and updated the queries to pull in the new data and display within a React NPM package called Helmet.", 
-                    "projecturl":"https://checkworks.com/category/personal-checks"
+                    "title":"Product Data Clean Up", 
+                    "description":"Largest contribution I made was I took on an extensive task of cleaning up the product data. I remapped all product attributes to attributes coming from the SQL tables that was provided from our Software Developer. I used uRapidFlow to create different import templates to make sure all attributes were mapping correctly then set up cron jobs to have them import automatically.", 
+                    "projecturl":"https://summerclassics.com/pillows-and-rugs"
                 }, 
                 {
-                    "title":"Image Optimization", 
-                    "description":"While monitoring user behavior using FullStory, I noticed that most of our users were really struggling with page loads. I looked closer and realized that the website was not pulling in thumbnail images but rather the large images on all of the category pages. I collaborated with marketing to get all of the images resized, then uploaded them to AWS and loaded them on the category pages. So now thumbnail images are being utilized on the category pages and the full sized images are rendering on the product detail page as well as alt text. It significantly improved the site's loading speeds and ADA compliancy.", 
-                    "projecturl":"https://checkworks.com/category/personal-checks"
+                    "title":"Sales & Promotions", 
+                    "description":"I was in charge of scheduling out all of the sales and promotions hosted on the site. I sometimes created the digital assests if not provided by the marketing team then would schedule out all of the blocks and products for a seamless experience. After the sales, I worked within Google Analytics to track how our digital compaigns did and user behavior. I created a template and would share the data with the marketing team for future reference.", 
+                    "projecturl":""
+                }, 
+                {
+                    "title":"New Policies", 
+                    "description":"For this project, I partnered with the head of Customer Service and together we generated new bussiness policies for our E-Commerce sites. Then using the Termly embeds, I added these policies to the website.", 
+                    "projecturl":"https://summerclassics.com/terms-conditions"
                 }
             ]
         },
@@ -174,12 +182,31 @@
             "company":"Gabriella White",
             "role":"Project Manager, UX Designer, Power User and Business Analyst", 
             "framework":"Magento",
-            "technologies":"", 
+            "technologies":[
+                "Magento", 
+                "HTML", 
+                "CSS", 
+                "JavaScript",
+                "Cognito Forms", 
+                "Zapier", 
+                "Trello", 
+                "SEO", 
+                "Termly", 
+                "uRapidFlow", 
+                "Google Analytics"
+            ], 
             "description":"This site is the sister brand to Summer Classics. This site was launched accompanying the launch of summerclassics.com. Post launch, I continue to design, develop, and manage this Magneto Commerce site.", 
             "workexamples":[
-                "1", 
-                "2", 
-                "3"
+                {
+                    "title":"Form Build Out", 
+                    "description":"When I first joined the team, they were using 3 different form builders and the responses were varied. I took on the task of using Cognito Forms to rebuild all of the forms on 1 platform. The biggest contribution was the contact us form. It contains over 50 different end points all determined by the user's choices throughout the process.", 
+                    "projecturl":"https://summerclassics.com/contact-us"
+                }, 
+                {
+                    "title":"Pillow Cleanup", 
+                    "description":"The pillows were structured in the MySQL tables as group by color and family. Magento would take that data and only show 1 parent pillow. I opted for us to break apart the pillow data by color and then set the color attribute as a filter, therefore allowing a user to filter by color. Now, if a pillow comes in 2 different colors, both colors are shown on the frontend of the website.", 
+                    "projecturl":"https://gabby.com/pillows-rugs/pillows"
+                }
             ]
         },
         {
@@ -187,14 +214,19 @@
             "title":"fabrics.gabby.com", 
             "url":"https://fabrics.gabby.com/",
             "company":"Gabriella White",
-            "role":"Project Manager, UX Designer, Power User and Business Analyst", 
+            "role":"UX Designer", 
             "framework":"Wordpress",
-            "technologies":"", 
-            "description":"This site handles free fabric samples orders. I worked with an outside agency to develop and design this Wordpress WooComerce site. This site launched a week prior to the launch of the E-commerce sites. Post launch, I am managing the product data.", 
+            "technologies":[
+                "WooCommerce",
+                "Data Imports"
+            ], 
+            "description":"This site handles free fabric samples orders. I worked with an outside agency to develop and design this Wordpress WooComerce site. This site launched a week prior to the launch of the E-commerce sites. Post launch, I was managing the product data.", 
             "workexamples":[
-                "1", 
-                "2", 
-                "3"
+                {
+                    "title":"Post Launch Data Management", 
+                    "description":"This site is a simple wordpress site that uses the WooCommerce plug in to handle the ordering of free fabric samples for the sales representatives. I was in charge of updating the product database based on product statuses within the system.", 
+                    "projecturl":"https://fabrics.gabby.com/product-category/fabrics/"
+                }
             ]
         }, 
         {
@@ -202,14 +234,19 @@
             "title":"fabrics.summerclassics.com", 
             "url":"https://fabrics.summerclassics.com/",
             "company":"Gabriella White",
-            "role":"Project Manager, UX Designer, Power User and Business Analyst", 
+            "role":"UX Designer", 
             "framework":"Wordpress",
-            "technologies":"", 
+            "technologies":[
+                "WooCommerce",
+                "Data Imports"
+            ],  
             "description":"This site handles free fabric samples orders for summer classics outdoor performance fabrics. I worked with an outside agency to develop and design this Wordpress WooComerce site. This site launched a week prior to the launch of the E-commerce sites. Post launch, I am managing the product data.", 
             "workexamples":[
-                "1", 
-                "2", 
-                "3"
+                {
+                    "title":"Post Launch Data Management", 
+                    "description":"This site is a simple wordpress site that uses the WooCommerce plug in to handle the ordering of free fabric samples for the sales representatives. I was in charge of updating the product database based on product statuses within the system.", 
+                    "projecturl":"https://fabrics.summerclassics.com/product-category/fabrics/"
+                }
             ]
         },
         {
@@ -217,14 +254,28 @@
             "title":"contract.summerclassics.com", 
             "url":"https://contract.summerclassics.com/",
             "company":"Gabriella White",
-            "role":"Power User and Business Analyst", 
+            "role":"UX Designer", 
             "framework":"Magento",
-            "technologies":"", 
-            "description":"I handle the daily oppations for this site. I worked with a software developer to generate product feeds from the ERP system. This site is now entirely feed and populated by those feeds. Now, I just handle content updates.", 
+            "technologies":[
+                "Adobe XD"
+            ], 
+            "description":"I handle the daily oppations for this site. I worked with a software developer to generate product feeds from the ERP system. This site is now entirely feed and populated by those feeds.", 
             "workexamples":[
-                "1", 
-                "2", 
-                "3"
+                {
+                    "title":"MegaMenu Installation", 
+                    "description":"Before, this site used the default Magento dropdown menu. With all of the options, it was too lengthy and was not responsive. With the help of a developer who installed the Megamenu Magento block, I was able to build out the new megamenu structure. It greatly improved the user experience.", 
+                    "projecturl":"https://contract.summerclassics.com/"
+                }, 
+                {
+                    "title":"Case Study Pages", 
+                    "description":"I designed and built this page and all individual case study pages using graphics provided from the marketing team.", 
+                    "projecturl":"https://contract.summerclassics.com/case-studies"
+                }, 
+                {
+                    "title":"Assembly Instructions", 
+                    "description":"With the help of a developer who installed a pdf plugin to the Magento site, I was able to upload all of the assembly instructions. Given the large amount of different products, I designed this page to use accordians and organized by product category for ease of use.", 
+                    "projecturl":"https://contract.summerclassics.com/assembly-instructions"
+                }
             ]
         },
         {
@@ -232,13 +283,26 @@
             "title":"trade.summerclassics.com", 
             "url":"https://trade.summerclassics.com/",
             "company":"Gabriella White", 
+            "role":"UX Designer", 
             "framework":"Magento", 
-            "technologies":"", 
-            "description":"", 
+            "technologies":[
+                "PhotoShop", 
+                "Adobe XD", 
+                "Flippingbook", 
+                "Termly"
+            ], 
+            "description":"I was apart of a small team that designed, built and launched this site. I contributed all of the landing pages and content for this build.", 
             "workexamples":[
-                "1", 
-                "2", 
-                "3"
+                {
+                    "title":"Home Page Layout", 
+                    "description":"I created wireframes and presented to the Wholesale, Customer Service and Leadership team. Once my design was approved, I built out the page in the Magento page builder.", 
+                    "projecturl":"https://trade.summerclassics.com/"
+                }, 
+                {
+                    "title":"New Catalog UX", 
+                    "description":"One project I spearheaded was a new catalog viewing tool. I decided to go with Flippingbook and worked with the marketing team to archieve all of their past catalogs into Flippingbook. Once there, I then used the embed codes to display them on the trade site.", 
+                    "projecturl":"https://trade.summerclassics.com/catalogs"
+                }
             ]
         }, 
         {
@@ -246,13 +310,20 @@
             "title":"trade.gabby.com", 
             "url":"https://trade.gabby.com/",
             "company":"Gabriella White", 
+            "role":"UX Designer", 
             "framework":"Magento", 
-            "technologies":"", 
-            "description":"", 
+            "technologies":[
+                "Cognito Forms", 
+                "Termly", 
+                "Flippingbook"
+            ], 
+            "description":"This is the sister site to the SummerClassics Trade site. I preformed the same roles on both sites.", 
             "workexamples":[
-                "1", 
-                "2", 
-                "3"
+                {
+                    "title":"COM Form", 
+                    "description":"I partnered with Customer Service and Facilities departments to create a new COM (Customer's Own Material) Form. The old form was wordy and confusing. By breaking up the form into different pages, it simplified the user experience. This form got a huge amount of praise once I launched it.", 
+                    "projecturl":"https://trade.gabby.com/customers-own-material-com"
+                }
             ]
         }, 
         {
@@ -260,29 +331,56 @@
             "title": "summerclassics.com/blog", 
             "url":"https://summerclassics.com/blog/",
             "company":"Gabriella White",
-            "role":"Project Manager, UX Designer and Power User", 
+            "role":"UX Designer", 
             "framework":"Wordpress",
             "technologies":"", 
-            "description":"I was head of a small team to build this content site. I worked very closely with an outside agency to design and develop this site. This site was launch in random with the new Commerce sites. Post launch, I manage this site and handle all content updates.", 
-            "workexamples":[
-                "1", 
-                "2", 
-                "3"
-            ]
+            "description":"I was head of a small team to build this content site. I worked very closely with an outside agency to design and develop this site. This site was launch in tandom with the new Commerce sites. Post launch, I manage this site and handle all content updates.", 
+            "workexamples":""
         },
         {
             "imagepath":"/static/media/IMG_7370.e32ab30b6fa0fe4c013d.jpg", 
             "title": "gabby.com/blog/", 
             "url":"https://gabby.com/blog",
             "company":"Gabriella White",
-            "role":"Project Manager, UX Designer and Power User", 
+            "role":"UX Designer", 
             "framework":"Wordpress",
             "technologies":"", 
             "description":"This is the sister site to blog.summerclassics.com. Post launch, I now manage this site and handle all content updates.", 
-            "workexamples":[
-                "1", 
-                "2", 
-                "3"
+            "workexamples":""
+        }, 
+        {
+            "imagepath":"", 
+            "title": "My Portfolio Site", 
+            "url":"https://my-portfolio-kappa-vert.vercel.app/",
+            "company":"",
+            "role":"Developer & Designer", 
+            "framework":"React",
+            "technologies":[
+                "React.js", 
+                "Node.js", 
+                "JSON", 
+                "JavaScript", 
+                "CSS", 
+                "JSX", 
+                "Adobe XD", 
+                "Photoshop", 
+                "Vercel", 
+                "MySQL", 
+                "MVC"
+            ], 
+            "description":"Welcome to my portfolio site. I built this site myself and am so glad you are looking at it.", 
+            "workexamples":
+            [
+                {
+                    "title":"MySQL Database", 
+                    "description":"I used the MVC structure to create a MySQL database to house all of my project data in a table.", 
+                    "projecturl":"https://my-portfolio-kappa-vert.vercel.app/projects"
+                }, 
+                {
+                    "title":"Custom Background", 
+                    "description":"I decided to design my own background for this site. The background image is a piece made by me using Photoshop.", 
+                    "projecturl":"https://my-portfolio-kappa-vert.vercel.app/"
+                } 
             ]
         }
 

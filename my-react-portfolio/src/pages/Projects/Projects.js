@@ -15,12 +15,23 @@ import AllProjectList from '../../projectLists/AllProjectList.json';
 // import gergsworld from '../images/'; 
 
 const Projects = () => {
+    const returnedProjectList = []; 
 
+    //sorts through and only returns projects that match the given framework and stores the results in the returnedProjectList array
+    const returnProjects = () => {
+        AllProjectList.projects.find((project) => {
+            if ((project.framework).includes("Wordpress")) {
+                returnedProjectList.push(project); 
+            }
+        })
+    }; 
+    
     return ( 
         <div>
             <h2>Projects</h2>
             <div className="project-container fadeIn">
-                {AllProjectList.projects.map((project) => (
+                {returnProjects()}
+                {returnedProjectList.map((project) => (
                     <div className="project">
                         <div className="container">
                             <img src={bluestockimage} alt={project.url}/>
