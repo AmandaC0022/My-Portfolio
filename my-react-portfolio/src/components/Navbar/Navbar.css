@@ -18,11 +18,11 @@
     width: 100%;  
   }
   .active h5 {
-    color: var(--teal); 
+    color: var(--blue); 
   }
 
   .nav-link:hover {
-    color:var(--blue); 
+    color:var(--dark-teal); 
     transition: color .25s ease-in-out; 
     cursor: pointer;
   }
