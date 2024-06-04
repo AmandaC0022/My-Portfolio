@@ -67,7 +67,7 @@ const Projects = () => {
         
     
     return ( 
-        <div>
+        <div className="project-container fadeIn">
             <div className="project-header">
                 <h2>Projects</h2>
                 <p>I love working with a team in a fast paced environment. I tend to take charge, always keep busy and maintain a positive attitude. </p>
@@ -77,8 +77,9 @@ const Projects = () => {
                     <button className="custom-btn" value="Magento" onClick={getValue}>See Magento Projects</button>
                 </div>
             </div>
-            <div className="project-container fadeIn">
+            <div className="project-list-container">
                 {/* {displayAllProjects()} */}
+                <Project/>
                 <Project/>
                 <Project/>
                 <Project/>

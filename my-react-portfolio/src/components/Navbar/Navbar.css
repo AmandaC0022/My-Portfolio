@@ -14,7 +14,8 @@
   .nav-link {
     margin: 10px 10px; 
     padding: 10px 10px; 
-    color:white; 
+    color: black; 
+    width: 100%;  
   }
   .active h5 {
     color: var(--teal); 
