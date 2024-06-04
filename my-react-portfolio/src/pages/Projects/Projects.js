@@ -15,6 +15,7 @@ import AllProjectList from '../../projectLists/AllProjectList.json';
 // import gergsworld from '../images/'; 
 
 const Projects = () => {
+
     return ( 
         <div>
             <h2>Projects</h2>
