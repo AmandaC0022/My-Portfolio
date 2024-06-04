@@ -26,20 +26,7 @@ const Projects = () => {
         return (
             AllProjectList.projects.map((project) => {
                 return(
-                    <div className="project">
-                        <div className="container">
-                            <iframe width="100%" src={project.url} title={project.title} scrolling="no"></iframe>
-                            <div className="overlay">
-                                <button className="custombtn"><a href={project.url} target="_blank" rel="noreferrer">Visit Site</a></button>
-                            </div>
-                        </div>
-                        <h4>{project.title}</h4>
-                        <button className="custombtn mobilebtn"><a href={project.url} target="_blank" rel="noreferrer">Visit Site</a></button>
-                        <p>Role: {project.role}</p>
-                        <p>Company: {project.company}</p>
-                        <p>Framework: {project.framework}</p>
-                        <p>{project.description}</p>
-                    </div>
+                    <Project title={project.title} description={project.description} url={project.url}/>
                 )
             })
         )
@@ -78,11 +65,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className="project-list-container">
-                {/* {displayAllProjects()} */}
-                <Project/>
-                <Project/>
-                <Project/>
-                <Project/>
+                {displayAllProjects()}
             </div>
         </div>
      );

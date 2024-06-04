@@ -1,7 +1,6 @@
 {
     "projects": [
         {
-            "imagepath":"../static/media/Kuka-Home-Furnishings.ad0484dd815585fe1c4c.jpg", 
             "title":"kukahomeusa.com",
             "url":"https://kukahomeusa.com/", 
             "company":"Ansel & Anderson", 
@@ -30,7 +29,6 @@
             ]
         },
         {
-            "imagepath":"/static/media/Bluestock.0e1bd4131f08bc936ad6.jpg", 
             "title":"bluestockadvisors.com",
             "url":"https://bluestockadvisors.com/", 
             "company":"Ansel & Anderson",
@@ -61,8 +59,7 @@
                 
             ]
         },
-        {
-            "imagepath":"/static/media/IMG_0041.15ecd4bb137b28a64fda.jpg", 
+        { 
             "title":"checksforfree.com",
             "url":"https://checksforfree.com/",
             "company":"Main Street Inc.",
@@ -99,8 +96,7 @@
                 }
             ]
         },
-        {
-            "imagepath":"/static/media/IMG_0040.41defa44afc586ba9430.jpg", 
+        { 
             "title":"checkworks.com",
             "url":"https://checkworks.com/", 
             "company":"Main Street Inc.",
@@ -137,8 +133,7 @@
                 }
             ]
         }, 
-        {
-            "imagepath":"/static/media/IMG_7369.9e85ae0b74f7cd75fa7b.jpg", 
+        { 
             "title":"summerclassics.com",
             "url":"https://summerclassics.com/", 
             "company":"Gabriella White",
@@ -176,7 +171,6 @@
             ]
         },
         {
-            "imagepath":"/static/media/IMG_7365.911f46c116218b10532d.jpg", 
             "title":"gabby.com", 
             "url":"https://gabby.com/",
             "company":"Gabriella White",
@@ -209,8 +203,7 @@
                 }
             ]
         },
-        {
-            "imagepath":"/static/media/IMG_7367.8ee15c357d708e945d08.jpg", 
+        { 
             "title":"fabrics.gabby.com", 
             "url":"https://fabrics.gabby.com/",
             "company":"Gabriella White",
@@ -229,8 +222,7 @@
                 }
             ]
         }, 
-        {
-            "imagepath":"/static/media/IMG_7368.d740d264bae26b13e90d.jpg", 
+        { 
             "title":"fabrics.summerclassics.com", 
             "url":"https://fabrics.summerclassics.com/",
             "company":"Gabriella White",
@@ -250,7 +242,6 @@
             ]
         },
         {
-            "imagepath":"/static/media/IMG_7366.7dee4028caff97f268dc.jpg", 
             "title":"contract.summerclassics.com", 
             "url":"https://contract.summerclassics.com/",
             "company":"Gabriella White",
@@ -279,7 +270,6 @@
             ]
         },
         {
-            "imagepath": "", 
             "title":"trade.summerclassics.com", 
             "url":"https://trade.summerclassics.com/",
             "company":"Gabriella White", 
@@ -306,7 +296,6 @@
             ]
         }, 
         {
-            "imagepath": "", 
             "title":"trade.gabby.com", 
             "url":"https://trade.gabby.com/",
             "company":"Gabriella White", 
@@ -327,7 +316,6 @@
             ]
         }, 
         {
-            "imagepath":"/static/media/IMG_7369.9e85ae0b74f7cd75fa7b.jpg", 
             "title": "summerclassics.com/blog", 
             "url":"https://summerclassics.com/blog/",
             "company":"Gabriella White",
@@ -338,7 +326,6 @@
             "workexamples":""
         },
         {
-            "imagepath":"/static/media/IMG_7370.e32ab30b6fa0fe4c013d.jpg", 
             "title": "gabby.com/blog/", 
             "url":"https://gabby.com/blog",
             "company":"Gabriella White",
@@ -349,7 +336,6 @@
             "workexamples":""
         }, 
         {
-            "imagepath":"", 
             "title": "My Portfolio Site", 
             "url":"https://my-portfolio-kappa-vert.vercel.app/",
             "company":"",
