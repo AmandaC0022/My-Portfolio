@@ -16,8 +16,8 @@ const Navbar = () => {
                 <NavLink className={splitLocation[1] === "" ? "active" : ""} to="/projects"><h5 className="nav-link">Projects</h5></NavLink> 
                 <span className="circle"></span>
                 <NavLink className={splitLocation[1] === "" ? "active" : ""} to="/resume"><h5 className="nav-link">Resume</h5></NavLink> 
-                <span className="circle"></span>
-                <NavLink className={splitLocation[1] === "" ? "active" : ""} to="/contact"><h5 className="nav-link">Contact Me</h5></NavLink> 
+                {/* <span className="circle"></span>
+                <NavLink className={splitLocation[1] === "" ? "active" : ""} to="/contact"><h5 className="nav-link">Contact Me</h5></NavLink>  */}
             </div>
         </div>
      );

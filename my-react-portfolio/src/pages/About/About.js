@@ -84,7 +84,12 @@ const About = () => {
                 <Circles/>
                 <div className="contact-block">
                     <h2>Want to Reach Out?</h2>
-                    <button className="custom-btn fill"><Link to="/contact">Contact Me</Link></button>
+                    <a href="mailto:AmandaC0022@gmail.com" target="_blank">
+                        <button className="custom-btn fill">
+                            <p>Email Me</p>
+                            {/* <Link to="/contact">Contact Me</Link> */}
+                        </button>
+                    </a>
                 </div>
             </div>
             {/* <h2>Links</h2>
