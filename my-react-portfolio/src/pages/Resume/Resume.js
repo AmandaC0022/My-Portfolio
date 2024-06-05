@@ -9,7 +9,7 @@ const Resume = () => {
                 <h2>Resume</h2>
             </div>
             <Circles/>
-            <object data={pdf} type="application/pdf" width="100%" height="700px" aria-labelledby="2024 Web Development Resume" alt="2024 Web Development Resume"></object>
+            <iframe className="resume-iframe" width="100%" src={pdf}/>
         </div>
      );
 }

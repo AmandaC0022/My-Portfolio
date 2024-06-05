@@ -10,7 +10,7 @@
 .project h4 {
     margin: 5px; 
 }
-iframe, .project-img {
+.project-img {
     width: 100%;
     border: 2px solid white; 
     border-radius: 40px 40px 0px 40px;   
@@ -25,7 +25,7 @@ iframe, .project-img {
     .project {
         width: 45%; 
     }
-    iframe {
+    .project-img {
         height: 300px; 
     }
 }
@@ -33,7 +33,7 @@ iframe, .project-img {
     .project {
         width: 100%; 
     }
-    iframe {
+    .project-img {
         height: 300px; 
     }
 }

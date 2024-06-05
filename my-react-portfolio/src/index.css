@@ -43,7 +43,7 @@
   body{
     margin: 0;  
     position: relative;  
-    min-height: 90vh; 
+    min-height: 95vh; 
     background: url("images/portfolio-background.jpg") no-repeat fixed center; 
   }
   * {
@@ -169,5 +169,8 @@
   @media screen and (max-width:600px) {
     .body {
       margin-top:20%; 
+    }
+    h2 {
+      font-size: 30px; 
     }
   }
