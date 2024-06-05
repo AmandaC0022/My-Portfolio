@@ -1,12 +1,14 @@
 import './Project.css';
 import OpenModal from '../Modal/Modal'; 
+import image from '../../images/SummerClassics.jpg'
 
 const Project = (props) => {
     
     return ( 
         <div className="project">
             <div className="container">
-                <iframe width="100%" src={props.url} title={props.title} scrolling="no"></iframe>
+                <img className="project-img" src={props.image} alt={props.url}/>
+                {/* <iframe width="100%" src={props.url} title={props.title} scrolling="no"></iframe> */}
             </div>
             <h4>{props.title}</h4>
             <p>{props.description}</p>

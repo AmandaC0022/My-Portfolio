@@ -1,16 +1,17 @@
 .project {
-    width: 25%; 
+    width: 20%; 
     margin:20px 0px; 
     display: flex; 
     flex-direction: column;
     align-items: center;
     justify-content:space-between; 
+    padding: 10px; 
 }
 .project h4 {
     margin: 5px; 
 }
-iframe {
-    height: 400px;
+iframe, .project-img {
+    width: 100%;
     border: 2px solid white; 
     border-radius: 40px 40px 0px 40px;   
 }
@@ -22,7 +23,7 @@ iframe {
 
 @media screen and (max-width: 1240px) {
     .project {
-        width: 50%; 
+        width: 45%; 
     }
     iframe {
         height: 300px; 

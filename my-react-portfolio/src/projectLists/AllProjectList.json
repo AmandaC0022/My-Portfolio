@@ -3,6 +3,7 @@
         {
             "title":"kukahomeusa.com",
             "url":"https://kukahomeusa.com/", 
+            "imagepath":"/static/media/Kuka.ad0484dd815585fe1c4c.jpg", 
             "company":"Ansel & Anderson", 
             "role":"UI Developer and Designer", 
             "framework":"Wordpress", 
@@ -31,6 +32,7 @@
         {
             "title":"bluestockadvisors.com",
             "url":"https://bluestockadvisors.com/", 
+            "imagepath":"/static/media/Bluestock.0e1bd4131f08bc936ad6.jpg",
             "company":"Ansel & Anderson",
             "role":"UI Developer and Designer", 
             "framework":"Wix", 
@@ -62,6 +64,7 @@
         { 
             "title":"checksforfree.com",
             "url":"https://checksforfree.com/",
+            "imagepath":"/static/media/ChecksForFree.15ecd4bb137b28a64fda.jpg",
             "company":"Main Street Inc.",
             "role":"Frontend Developer and UX Designer", 
             "framework":"Custom Build", 
@@ -99,6 +102,7 @@
         { 
             "title":"checkworks.com",
             "url":"https://checkworks.com/", 
+            "imagepath":"/static/media/CheckWorks.41defa44afc586ba9430.jpg",
             "company":"Main Street Inc.",
             "role":"Frontend Developer and UX Designer", 
             "framework":"Custom Build", 
@@ -141,6 +145,7 @@
         { 
             "title":"summerclassics.com",
             "url":"https://summerclassics.com/", 
+            "imagepath":"/static/media/SummerClassics.ac9e11b74b10cdd3d4e9.jpg",
             "company":"Gabriella White",
             "role":"UX Designer and Developer", 
             "framework":"Magento", 
@@ -179,6 +184,7 @@
             "title":"gabby.com", 
             "url":"https://gabby.com/",
             "company":"Gabriella White",
+            "imagepath":"/static/media/Gabby.911f46c116218b10532d.jpg",
             "role":"Project Manager, UX Designer, Power User and Business Analyst", 
             "framework":"Magento",
             "technologies":[
@@ -211,6 +217,7 @@
         { 
             "title":"fabrics.gabby.com", 
             "url":"https://fabrics.gabby.com/",
+            "imagepath":"/static/media/GabbyFabrics.4af89904ce8cfc7c1290.jpeg",
             "company":"Gabriella White",
             "role":"UX Designer", 
             "framework":"Wordpress",
@@ -230,6 +237,7 @@
         { 
             "title":"fabrics.summerclassics.com", 
             "url":"https://fabrics.summerclassics.com/",
+            "imagepath":"/static/media/SCFabrics.d740d264bae26b13e90d.jpg",
             "company":"Gabriella White",
             "role":"UX Designer", 
             "framework":"Wordpress",
@@ -249,6 +257,7 @@
         {
             "title":"contract.summerclassics.com", 
             "url":"https://contract.summerclassics.com/",
+            "imagepath":"/static/media/SCContract.7dee4028caff97f268dc.jpg",
             "company":"Gabriella White",
             "role":"UX Designer", 
             "framework":"Magento",
@@ -277,6 +286,7 @@
         {
             "title":"trade.summerclassics.com", 
             "url":"https://trade.summerclassics.com/",
+            "imagepath":"/static/media/SCTrade.47676f8602159b177e14.jpeg",
             "company":"Gabriella White", 
             "role":"UX Designer", 
             "framework":"Magento", 
@@ -303,6 +313,7 @@
         {
             "title":"trade.gabby.com", 
             "url":"https://trade.gabby.com/",
+            "imagepath":"/static/media/GabbyTrade.99d7d9939048a449e658.jpeg",
             "company":"Gabriella White", 
             "role":"UX Designer", 
             "framework":"Magento", 
@@ -323,6 +334,7 @@
         {
             "title": "summerclassics.com/blog", 
             "url":"https://summerclassics.com/blog/",
+            "imagepath":"/static/media/SCBlog.9e85ae0b74f7cd75fa7b.jpg",
             "company":"Gabriella White",
             "role":"UX Designer", 
             "framework":"Wordpress",
@@ -333,6 +345,7 @@
         {
             "title": "gabby.com/blog/", 
             "url":"https://gabby.com/blog",
+            "imagepath":"/static/media/GabbyBlog.e32ab30b6fa0fe4c013d.jpg", 
             "company":"Gabriella White",
             "role":"UX Designer", 
             "framework":"Wordpress",
@@ -343,7 +356,8 @@
         {
             "title": "My Portfolio Site", 
             "url":"https://my-portfolio-kappa-vert.vercel.app/",
-            "company":"",
+            "imagepath":"/static/media/Portfolio.74b06b5d8f055f716e8a.jpeg",
+            "company":"N/A",
             "role":"Developer & Designer", 
             "framework":"React",
             "technologies":[
