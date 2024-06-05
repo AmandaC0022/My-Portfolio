@@ -63,14 +63,6 @@
     background: var(--orange-gradient); 
     border-radius: 40px 40px 40px 0; 
 }
-.custom-btn a{
-    color: var(--blue); 
-    text-decoration: none;
-}
-.custom-btn a:hover{
-    color: var(--dark-teal); 
-    cursor:pointer; 
-}
 
 @media screen and (max-width: 786px) {
     .about-container {

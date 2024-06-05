@@ -9,7 +9,7 @@ const Project = (props) => {
             </div>
             <h4>{props.title}</h4>
             <p>{props.description}</p>
-            {/* <OpenModal/> */}
+            <OpenModal/>
         </div>
     )
 }; 

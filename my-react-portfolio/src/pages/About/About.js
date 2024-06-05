@@ -84,7 +84,7 @@ const About = () => {
                 <Circles/>
                 <div className="contact-block">
                     <h2>Want to Reach Out?</h2>
-                    <button className="custom-btn"><Link to="/contact">Contact Me</Link></button>
+                    <button className="custom-btn fill"><Link to="/contact">Contact Me</Link></button>
                 </div>
             </div>
             {/* <h2>Links</h2>

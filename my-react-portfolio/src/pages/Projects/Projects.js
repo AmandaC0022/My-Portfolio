@@ -59,9 +59,9 @@ const Projects = () => {
                 <h2>Projects</h2>
                 <p>I love working with a team in a fast paced environment. I tend to take charge, always keep busy and maintain a positive attitude. </p>
                 <div className="project-button-container">
-                    <button className="custom-btn" value="Custom" onClick={getValue}>See Custom Projects</button>
-                    <button className="custom-btn" value="Wordpress" onClick={getValue}>See Wordpress Projects</button>
-                    <button className="custom-btn" value="Magento" onClick={getValue}>See Magento Projects</button>
+                    <button className="custom-btn fill" value="Custom" onClick={getValue}><p>See Custom Projects</p></button>
+                    <button className="custom-btn fill" value="Wordpress" onClick={getValue}><p>See Wordpress Projects</p></button>
+                    <button className="custom-btn fill" value="Magento" onClick={getValue}><p>See Magento Projects</p></button>
                 </div>
             </div>
             <div className="project-list-container">
