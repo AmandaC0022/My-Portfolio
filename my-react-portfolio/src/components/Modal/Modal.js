@@ -9,12 +9,12 @@ const style = {
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    width: 600,
+    width: '70%',
     bgcolor: 'white',
     border: '8px solid #F298B4',
     borderRadius: '40px 40px 0 40px', 
     boxShadow: 24,
-    p: 4
+    p: '5%'
   };
 
 const OpenModal = (props) => {
@@ -26,7 +26,7 @@ const OpenModal = (props) => {
   
     return (
       <div>
-        <button className="custom-btn" onClick={handleOpen}>Learn More</button>
+        <button className="custom-btn-2 fill-2" onClick={handleOpen}><p>Learn More</p></button>
         <Modal 
           open={open}
           onClose={handleClose}
@@ -54,7 +54,7 @@ const OpenModal = (props) => {
                     <li>
                       <h5>{example.title}</h5>
                       <p>{example.description}</p>
-                      <a href={example.projecturl}>See Project</a>
+                      <a href={example.projecturl} className="work-link">See Project</a>
                     </li>
                   )
                 })}

@@ -81,9 +81,9 @@
   }
   .custom-btn {
     background-color: white; 
-    padding: 20px; 
+    padding: 15px; 
     border-radius: 40px 40px 40px 0; 
-    color:var(--blue); 
+    color:var(--teal); 
     overflow: hidden; 
     position: relative; 
     display: inline-block; 
@@ -97,6 +97,7 @@
     transition: all 0.25s ease; 
     text-decoration: none;
     margin: 0; 
+    font-size: 16px; 
   }
   .custom-btn:hover a, .custom-btn:hover p{
     color: white; 
@@ -120,4 +121,47 @@
   }
   .fill:hover::before {
     box-shadow: inset 0 0 0 60px var(--teal); 
+  }
+  .custom-btn-2 {
+    background-color: white; 
+    padding: 15px; 
+    border-radius: 40px 40px 40px 0; 
+    color:var(--pink); 
+    overflow: hidden; 
+    position: relative; 
+    display: inline-block; 
+    cursor: pointer; 
+    border:none; 
+  }
+  .custom-btn-2 a, .custom-btn-2 p {
+    margin: 0; 
+    position: relative; 
+    color: var(--pink); 
+    transition: all 0.25s ease; 
+    text-decoration: none;
+    margin: 0; 
+    font-size: 16px;
+  }
+  .custom-btn-2:hover a, .custom-btn-2:hover p{
+    color: white; 
+    transition: all 0.25s ease;
+  }
+  .custom-btn-2::before, .custom-btn-2::after {
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    left:0; 
+    height: 100%; 
+    width: 100%; 
+    transition: all 0.25s ease; 
+    border-radius: 40px 40px 40px 0; 
+    color:var(--pink); 
+  }
+  .fill-2::before {
+    transition-duration: 0.5s; 
+    box-shadow: inset 0 0 0 1px var(--pink); 
+  }
+  .fill-2:hover::before {
+    box-shadow: inset 0 0 0 60px var(--pink); 
   }

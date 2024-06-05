@@ -56,11 +56,11 @@ const Projects = () => {
             <div className="project-header">
                 <h2>Projects</h2>
                 <p>I love working with a team in a fast paced environment. I tend to take charge, always keep busy and maintain a positive attitude. </p>
-                <div className="project-button-container">
+                {/* <div className="project-button-container">
                     <button className="custom-btn fill" value="Custom" onClick={getValue}><p>See Custom Projects</p></button>
                     <button className="custom-btn fill" value="Wordpress" onClick={getValue}><p>See Wordpress Projects</p></button>
                     <button className="custom-btn fill" value="Magento" onClick={getValue}><p>See Magento Projects</p></button>
-                </div>
+                </div> */}
             </div>
             <Circles/>
             <div className="project-list-container">
