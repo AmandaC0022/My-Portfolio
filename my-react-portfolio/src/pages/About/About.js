@@ -51,6 +51,7 @@ const About = () => {
                             <ul>
                                 <li>Magento</li>
                                 <li>Wordpress</li>
+                                <li>WooComerce</li>
                                 <li>Wix</li>
                                 <li>Cognito Forms</li>
                                 <li>Beaconstac</li>
