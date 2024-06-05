@@ -25,30 +25,30 @@ const Projects = () => {
 
     const displayAllProjects = () => {
         return (
-            AllProjectList.projects.map((project) => {
+            AllProjectList.projects.map((project) => { 
                 return(
-                    <Project title={project.title} description={project.description} url={project.url}/>
+                    <Project 
+                        title={project.title} 
+                        description={project.description} 
+                        url={project.url}
+                        role={project.role}
+                        company={project.company}
+                        framework={project.framework}
+                        technologies={project.technologies}
+                        workexamples={project.workexamples}
+                    />
                 )
             })
         )
-    }
+    }; 
+
     const displayCertainProjects = () => {
         return (
             returnedProjectList.map((project) => {
-                <div className="project">
-                    <div className="container">
-                        <iframe width="100%" src={project.url} title={project.title} scrolling="no"></iframe>
-                    </div>
-                    <h4>{project.title}</h4>
-                    <button className="custom-btn fill"><a href={project.url} target="_blank" rel="noreferrer">Visit Site</a></button>
-                    <p>Role: {project.role}</p>
-                    <p>Company: {project.company}</p>
-                    <p>Framework: {project.framework}</p>
-                    <p>{project.description}</p>
-                </div>
+                <Project title={project.title} description={project.description} url={project.url}/>
             })
         )
-        } 
+    };  
         
     
     return ( 

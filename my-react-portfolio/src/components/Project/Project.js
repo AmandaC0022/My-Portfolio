@@ -2,6 +2,7 @@ import './Project.css';
 import OpenModal from '../Modal/Modal'; 
 
 const Project = (props) => {
+    
     return ( 
         <div className="project">
             <div className="container">
@@ -9,7 +10,14 @@ const Project = (props) => {
             </div>
             <h4>{props.title}</h4>
             <p>{props.description}</p>
-            <OpenModal/>
+            <OpenModal 
+                title={props.title} 
+                role={props.role}
+                company={props.company}
+                framework={props.framework}
+                technologies={props.technologies}
+                workexamples={props.workexamples}
+            />
         </div>
     )
 }; 

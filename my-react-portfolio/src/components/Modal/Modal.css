@@ -1,3 +1,27 @@
-.modal-content {
-    background: white; 
+.modal-header h2, .modal-header p{
+    margin:0; 
+    text-align: center; 
+}
+.modal-header {
+    margin-bottom: 25px; 
+}
+.modal-body p, .modal-body h5 {
+    margin: 5px; 
+}
+.modal-body {
+    overflow-y:scroll; 
+    max-height: 400px; 
+}
+.work-example-list li {
+    font-size: 20px;
+}
+.technology-list {
+    display:flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    width: 90%; 
+    flex-wrap: wrap; 
+}
+.technology-list li {
+    width: 30%; 
 }

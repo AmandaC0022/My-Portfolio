@@ -18,7 +18,7 @@
             "workexamples":[
                 {
                     "title":"Becki Owens Collection Page", 
-                    "description":"I completely redesigned and rebuilt this page to feature their new collaboration with the exclusive interior designer Becki Owens. This page was the first on the website to be solely optimized for an enjoyable experience on mobile and tablet as well as competely ADA compliant.", 
+                    "description":"I completely redesigned and rebuilt this page to feature their new collaboration with the exclusive interior designer Becki Owens. This page was the first on the website to be solely optimized for an enjoyable experience on mobile and tablet as well as completely ADA compliant.", 
                     "projecturl":"https://kukahomeusa.com/discover-our-collections/becki-owens-home/"
                 }, 
                 {
@@ -86,13 +86,13 @@
             "workexamples":[
                 {
                     "title":"Hero Banners", 
-                    "description":"Originally, the banner was just a static image without alt text. My goal was to build a responsive, changeable banner that showcased a hierarchy and had the ability to add multiple sub banners. I was able to create additional columns in the database to insert more data then create CSS code to set different styles based on how many rows returned with my query as well as alt text for the images.", 
+                    "description":"Originally, the banner was just a static image without alt text or overlaid text that a screen reader could read. My goal was to build a responsive, changeable banner that showcased a hierarchy and had the ability to add multiple sub banners. I was able to create additional columns in the database to insert more data, then created CSS code to set different styles based on how many rows returned with my query as well as add alt text for the images.", 
                     "projecturl":"https://checksforfree.com/"
                 }, 
                 {
                     "title":"Rebranding", 
                     "description":"As a newly launched site, I looked closely at SEO and the user behavior. I noticed that the original site was missing a brand guideline and consistent typeface, color scheme and image sizes. Using Adobe XD, I created Digital Brand Guidelines for both ChecksforFree and CheckWorks sites then using CSS, I implemented the approved changes.", 
-                    "projecturl":"https://checkworks.com/category/personal-checks"
+                    "projecturl":"https://checksforfree.com/"
                 }
             ]
         },
@@ -129,6 +129,11 @@
                 {
                     "title":"Image Optimization", 
                     "description":"While monitoring user behavior using FullStory, I noticed that most of our users were really struggling with page loads. I looked closer and realized that the website was not pulling in thumbnail images but rather the large images on all of the category pages. I collaborated with marketing to get all of the images resized, then uploaded them to AWS and loaded them on the category pages. So now thumbnail images are being utilized on the category pages and the full sized images are rendering on the product detail page as well as alt text. It significantly improved the site's loading speeds and ADA compliancy.", 
+                    "projecturl":"https://checkworks.com/category/personal-checks"
+                }, 
+                {
+                    "title":"Product Bullet Points", 
+                    "description":"As a new member of the team, I wasn't as familiar with the products and was curious about them. I noticed that the website itself did not have much information on the products so I thought I would add them. This was my first full stack project on the website. I built out MySQL tables, C# classes, queries and then created a React component nested within the Product Detail component that displayed the product details. I also wrote every bullet point and worked with their Product Manager to make sure every bullet was accurate.", 
                     "projecturl":"https://checkworks.com/category/personal-checks"
                 }
             ]

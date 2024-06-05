@@ -7,6 +7,9 @@
     border-radius: 40px 40px 40px 0px; 
     margin-top: 5%; 
 }
+.project-header h2 {
+    margin-bottom: 20px; 
+}
 .project-list-container {
     display: flex; 
     flex-direction: row;
