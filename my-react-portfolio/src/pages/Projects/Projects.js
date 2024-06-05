@@ -2,6 +2,7 @@
 import './Projects.css';
 import AllProjectList from '../../projectLists/AllProjectList.json'; 
 import Project from '../../components/Project/Project';  
+import Circles from '../../components/Circles/Circles'; 
 
 const Projects = () => {
     let returnedProjectList = []; 
@@ -37,12 +38,9 @@ const Projects = () => {
                 <div className="project">
                     <div className="container">
                         <iframe width="100%" src={project.url} title={project.title} scrolling="no"></iframe>
-                        <div className="overlay">
-                            <button className="custombtn"><a href={project.url} target="_blank" rel="noreferrer">Visit Site</a></button>
-                        </div>
                     </div>
                     <h4>{project.title}</h4>
-                    <button className="custombtn mobilebtn"><a href={project.url} target="_blank" rel="noreferrer">Visit Site</a></button>
+                    <button className="custom-btn fill"><a href={project.url} target="_blank" rel="noreferrer">Visit Site</a></button>
                     <p>Role: {project.role}</p>
                     <p>Company: {project.company}</p>
                     <p>Framework: {project.framework}</p>
@@ -64,6 +62,7 @@ const Projects = () => {
                     <button className="custom-btn fill" value="Magento" onClick={getValue}><p>See Magento Projects</p></button>
                 </div>
             </div>
+            <Circles/>
             <div className="project-list-container">
                 {displayAllProjects()}
             </div>

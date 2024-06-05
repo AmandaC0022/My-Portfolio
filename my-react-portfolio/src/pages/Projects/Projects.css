@@ -6,7 +6,6 @@
     background: var(--pink-gradient);
     border-radius: 40px 40px 40px 0px; 
     margin-top: 5%; 
-    margin-bottom: 5%; 
 }
 .project-list-container {
     display: flex; 

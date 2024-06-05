@@ -5,6 +5,10 @@
     align-items: center;
     background-image: var(--peach-gradient); 
     border-radius: 0 0 40px 40px; 
+    position: fixed; 
+    top:0; 
+    width: 100%; 
+    z-index: 2;  
   }
 
   .navbar-container a {

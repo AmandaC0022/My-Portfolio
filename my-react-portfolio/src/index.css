@@ -17,6 +17,7 @@
   .body {
     margin-right: 10%;
     margin-left: 10%; 
+    margin-top:7%; 
   }
 
   .fadeIn {
@@ -42,7 +43,7 @@
   body{
     margin: 0;  
     position: relative;  
-    min-height: 100vh; 
+    min-height: 90vh; 
     background: url("images/portfolio-background.jpg") no-repeat fixed center; 
   }
   * {
