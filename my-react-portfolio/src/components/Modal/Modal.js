@@ -17,12 +17,12 @@ const style = {
     p: '5%'
   };
 
-const OpenModal = (props) => {
+const OpenModal = ({title, role, company, framework, technologies, workexamples}) => {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
-    const technologyList = Array.from(props.technologies); 
-    const workList = Array.from(props.workexamples); 
+    const technologyList = Array.from(technologies); 
+    const workList = Array.from(workexamples); 
   
     return (
       <div>
@@ -35,12 +35,12 @@ const OpenModal = (props) => {
         >
           <Box sx={style}>
             <div className="modal-header">
-              <h2>{props.title}</h2>
+              <h2>{title}</h2>
             </div>
             <div className="modal-body">
-              <p>Role: {props.role}</p>
-              <p>Company: {props.company}</p>
-              <p>Framework: {props.framework}</p>
+              <p>Role: {role}</p>
+              <p>Company: {company}</p>
+              <p>Framework: {framework}</p>
               <p>Technologies:</p>
               <ul className="technology-list">
                 {technologyList.map((technology) => {

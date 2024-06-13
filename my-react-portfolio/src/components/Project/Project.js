@@ -1,23 +1,23 @@
 import './Project.css';
 import OpenModal from '../Modal/Modal'; 
+//import ProjectProps from './Project'; 
 
-const Project = (props) => {
-    
+const Project = ({title, description, role, company, framework, technologies, workexamples, imagepath, url}) => {
     return ( 
         <div className="project">
             <div className="container">
-                <img className="project-img" src={require(`../../images/${props.image}`)} alt={props.url}/>
+                <img className="project-img" src={require(`../../images/${imagepath}`)} alt={url}/>
                 {/* <iframe width="100%" src={props.url} title={props.title} scrolling="no"></iframe> */}
             </div>
-            <h4>{props.title}</h4>
-            <p>{props.description}</p>
+            <h4>{title}</h4>
+            <p>{description}</p>
             <OpenModal 
-                title={props.title} 
-                role={props.role}
-                company={props.company}
-                framework={props.framework}
-                technologies={props.technologies}
-                workexamples={props.workexamples}
+                title={title} 
+                role={role}
+                company={company}
+                framework={framework}
+                technologies={technologies}
+                workexamples={workexamples}
             />
         </div>
     )
