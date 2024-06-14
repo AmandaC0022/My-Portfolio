@@ -67,7 +67,7 @@
             "imagepath":"ChecksForFree.jpg",
             "company":"Main Street Inc.",
             "role":"Frontend Developer and UX Designer", 
-            "framework":"Custom Build", 
+            "framework":"Custom", 
             "technologies":[
                 "React", 
                 "Node.js", 
@@ -105,7 +105,7 @@
             "imagepath":"CheckWorks.jpg",
             "company":"Main Street Inc.",
             "role":"Frontend Developer and UX Designer", 
-            "framework":"Custom Build", 
+            "framework":"Custom", 
             "technologies":[
                 "React", 
                 "Node.js", 
