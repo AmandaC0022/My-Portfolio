@@ -35,8 +35,9 @@
             "imagepath":"Bluestock.jpg",
             "company":"Ansel & Anderson",
             "role":"UI Developer and Designer", 
-            "framework":"Wix", 
+            "framework":"Custom", 
             "technologies":[
+                "Wix", 
                 "SEO Optimization", 
                 "Responsive Web Design", 
                 "ADA Compliancy"

@@ -6,20 +6,21 @@ import Circles from '../../components/Circles/Circles';
 import { useState, useEffect } from 'react';
 
 const Projects = () => {
-    const [projectList, setProjectList] = useState(AllProjectList.projects);  
-    let givenValue = ""; 
+    const [projectList, setProjectList] = useState(AllProjectList.projects);
+    const [defaultList, setDefaultList] = useState(AllProjectList.projects);   
 
     const getValue = (event) => { 
-        givenValue = event.target.value.toString(); 
+        const givenValue = event.target.value.toString(); 
         filterProjects(givenValue); 
     };  
 
     const filterProjects = (value) => {
-        setProjectList(projectList.filter(project => project.framework === value));
+        const filteredList = defaultList.filter(project => project.framework === value);
+        setProjectList(filteredList); 
     }; 
 
     const resetProjects = () => {
-        setProjectList(AllProjectList.projects); 
+        setProjectList(defaultList); 
     }; 
 
     const displayProjects = () => {
