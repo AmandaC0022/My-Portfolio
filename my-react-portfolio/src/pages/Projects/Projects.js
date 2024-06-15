@@ -24,7 +24,6 @@ const Projects = () => {
     }; 
 
     const displayProjects = () => {
-        console.log(projectList); 
         return (
             projectList.map((project) => {
                 return ( 
