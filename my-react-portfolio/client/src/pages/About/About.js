@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import './About.css'; 
 import Circles from '../../components/Circles/Circles'; 
+import { SkillList } from "../../components/SkillList/SkillList";
 
 const About = () => {
     return ( 
@@ -25,67 +26,11 @@ const About = () => {
             </div>
             <div className="right-container">
                 <Circles/>
-                <div className="skills-block">
-                    <h2>Skills</h2>
-                    <div className="skills-list">
-                        <div className="skills">
-                            <h4>Developer</h4>
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Javascript</li>
-                                <li>React</li>
-                                <li>Node.js</li>
-                                <li>Git & Github</li>
-                                <li>Azure Dev Ops</li>
-                                <li>MySQL</li>
-                                <li>C#</li>
-                                <li>MongoDB</li>
-                                <li>GraphQL</li>
-                                <li>Express</li>
-                                <li>REST APIs</li>
-                            </ul>
-                        </div>
-                        <div className="skills">
-                            <h4>Power User</h4>
-                            <ul>
-                                <li>Magento</li>
-                                <li>Wordpress</li>
-                                <li>WooComerce</li>
-                                <li>Wix</li>
-                                <li>Cognito Forms</li>
-                                <li>Beaconstac</li>
-                                <li>uRapidFlow</li>
-                                <li>Flippingbook</li>
-                                <li>Cylindo</li>
-                                <li>Zapier</li>
-                                <li>Termly</li>
-                            </ul>
-                        </div>
-                        <div className="skills">
-                            <h4>Designer</h4>
-                            <ul>
-                                <li>Adobe XD</li>
-                                <li>Adobe Photoshop</li>
-                                <li>Google Analytics</li>
-                                <li>FullStory</li>
-                                <li>LucidChart</li>
-                            </ul>
-                        </div>
-                        <div className="skills">
-                            <h4>Project Manager</h4>
-                            <ul>
-                                <li>Jira</li>
-                                <li>Trello</li>
-                                <li>Asana</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                <SkillList />
                 <Circles/>
                 <div className="contact-block">
                     <h2>Want to Reach Out?</h2>
-                    <a href="mailto:AmandaC0022@gmail.com" target="_blank">
+                    <a href="mailto:AmandaC0022@gmail.com" target="_blank" rel="noreferrer">
                         <button className="custom-btn fill">
                             <p>Email Me</p>
                             {/* <Link to="/contact">Contact Me</Link> */}

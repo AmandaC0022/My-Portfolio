@@ -33,30 +33,6 @@
 .education-block h4 {
     margin:0; 
 }
-.skills-block {
-    padding: 30px; 
-    width: 90%; 
-    background: var(--pink-blue-gradient); 
-    border-radius: 40px 40px 40px 0; 
-}
-.skills-list {
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.skills {
-    width: 40%; 
-}
-.skills h4 {
-    margin: 0; 
-}
-.skills ul {
-    padding-left:0; 
-}
-.skills li {
-    list-style-type: none; 
-}
 .contact-block {
     padding: 30px; 
     width: 90%; 
@@ -82,8 +58,5 @@
     }
     .contact-block {
         margin-bottom: 20%; 
-    }
-    .skills {
-        width: 50%; 
     }
 }
