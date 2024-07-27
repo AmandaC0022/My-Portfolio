@@ -1,54 +1,34 @@
-const { Model, DataTypes } = require('sequelize');
-// import our database connection from config.js
-const sequelize = require('../config/connection');
+const { Schema, model } = require('mongoose'); 
 
-// Initialize HashTag model (table) by extending off Sequelize's Model class
-class Project extends Model {};
-
-Project.init(
-    {
-        id: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-            primaryKey: true,
-            autoIncrement: true
-        },
-        title: {
-            type: DataTypes.STRING,
-            allowNull: false
-        },
-        url: {
-            type: DataTypes.STRING,
-            allowNull: false
-        }, 
-        role: {
-            type: DataTypes.STRING,
-            allowNull: false
-        }, 
-        framework: {
-            type: DataTypes.STRING,
-            allowNull: false
-        }, 
-        description: {
-            type: DataTypes.STRING,
-            allowNull: false
-        }, 
-        imagepath: {
-            type: DataTypes.STRING,
-            allowNull: false
-        }, 
-        sortorder: {
-            type: DataTypes.INTEGER,
-            allowNull: false
-        }, 
-    },
-    {
-        sequelize,
-        timestamps: false,
-        freezeTableName: true,
-        underscored: true,
-        modelName: 'project',
+//defines the structure of our Document
+const projectSchema = new Schema({
+    title: {
+        type: String, 
+        required: true, 
+    }, 
+    url: {
+        type: String, 
+        required: true, 
+    }, 
+    role: {
+        type: String, 
+        required: true, 
+    }, 
+    framework: {
+        type: String, 
+        required: true, 
+    }, 
+    description: {
+        type: String, 
+        required: true, 
+    }, 
+    imagepath: {
+        type: String, 
+        required: true, 
     }
-);
+})
 
-module.exports = Project;
+//creates a model and then allows us to manipulate the schema 
+const Project = model('Project', projectSchema); 
+
+module.exports = Project; 
