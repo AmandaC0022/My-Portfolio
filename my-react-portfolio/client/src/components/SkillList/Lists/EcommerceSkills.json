@@ -1,0 +1,48 @@
+{
+    "skills": [
+        {
+            "skill": "Magento", 
+            "value": 100
+        }, 
+        {
+            "skill": "Wordpress", 
+            "value": 100
+        }, 
+        {
+            "skill": "Cognito Forms", 
+            "value": 100
+        }, 
+        {
+            "skill": "Beconstac", 
+            "value": 100
+        }, 
+        {
+            "skill": "uRapidFlow", 
+            "value": 100
+        }, 
+        {
+            "skill": "Flippingbook", 
+            "value": 100
+        },
+        {
+            "skill": "WooCommerce", 
+            "value": 90
+        }, 
+        {
+            "skill": "Wix", 
+            "value": 90 
+        }, 
+        {
+            "skill": "Zapier", 
+            "value": 90
+        }, 
+        {
+            "skill": "Cylindo", 
+            "value": 80
+        }, 
+        {
+            "skill": "Termly", 
+            "value": 80
+        }
+    ]
+}

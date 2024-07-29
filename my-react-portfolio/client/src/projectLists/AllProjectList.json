@@ -368,18 +368,19 @@
                 "JavaScript", 
                 "CSS", 
                 "JSX", 
-                "Adobe XD", 
+                "AdobeXD", 
                 "Photoshop", 
                 "Vercel", 
-                "MySQL", 
-                "MVC"
+                "GraphQL", 
+                "MongoDB", 
+                "Apollo Client"
             ], 
             "description":"Welcome to my portfolio site. I built this site myself and am so glad you are looking at it.", 
             "workexamples":
             [
                 {
-                    "title":"MySQL Database", 
-                    "description":"I used the MVC structure to create a MySQL database to house all of my project data in a table.", 
+                    "title":"MongoDB Database", 
+                    "description":"I used MongoDB as my database for this project and have added Apollo Client and GraphQL as my query languages.", 
                     "projecturl":"https://my-portfolio-kappa-vert.vercel.app/projects"
                 }, 
                 {

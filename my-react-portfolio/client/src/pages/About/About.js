@@ -23,10 +23,6 @@ const About = () => {
                     <h4>Auburn University</h4>
                     <p>Bachelors of Art & Minor in Art History</p>
                 </div>
-            </div>
-            <div className="right-container">
-                <Circles/>
-                <SkillList />
                 <Circles/>
                 <div className="contact-block">
                     <h2>Want to Reach Out?</h2>
@@ -37,6 +33,11 @@ const About = () => {
                         </button>
                     </a>
                 </div>
+            </div>
+            <div className="right-container">
+                <Circles/>
+                <SkillList />
+                <Circles/>
             </div>
             {/* <h2>Links</h2>
             <Link className="about-link" to="/"><p>LinkedIn</p></Link>

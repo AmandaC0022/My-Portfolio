@@ -1,0 +1,16 @@
+{
+    "skills": [
+        {
+            "skill": "Jira", 
+            "value": 100
+        }, 
+        {
+            "skill": "Trello", 
+            "value": 100
+        },
+        {
+            "skill": "Asana", 
+            "value": 100
+        }
+    ]
+}

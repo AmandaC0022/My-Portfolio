@@ -1,0 +1,24 @@
+{
+    "skills": [
+        {
+            "skill": "AdobeXD", 
+            "value": 100
+        }, 
+        {
+            "skill": "LucidChart", 
+            "value": 100
+        },
+        {
+            "skill": "Google Analytics", 
+            "value": 90
+        }, 
+        {
+            "skill": "FullStory", 
+            "value": 90
+        },
+        {
+            "skill": "Adobe Photoshop", 
+            "value": 80
+        }
+    ]
+}
