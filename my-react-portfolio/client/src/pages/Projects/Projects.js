@@ -3,7 +3,7 @@ import './Projects.css';
 import AllProjectList from '../../projectLists/AllProjectList.json'; 
 import Project from '../../components/Project/Project';  
 import Circles from '../../components/Circles/Circles'; 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 const Projects = () => {
     const [projectList, setProjectList] = useState(AllProjectList.projects);

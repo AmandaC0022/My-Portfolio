@@ -1,6 +1,6 @@
 import './SkillList.css'; 
 import LinearProgress from '@mui/material/LinearProgress';
-import { skillList } from './SkillLists';
+import skills from './SkillsList.json';
 
 export const SkillList = () => {
     const handleLabel = (value) => {
@@ -15,17 +15,23 @@ export const SkillList = () => {
         }
         else return <p>Beginner</p>
     }
+
+    console.log(skills); 
+
+    const returnNumber = (value) => {
+        return Number(value); 
+    }
     return (
         <div className="skills-block">
             <h2>Skills</h2>
             <h4>Developer</h4>
             <div className="skill-bars">
-                {skillList.map((skill) => {
+                {skills.map((skill) => {
                     return (
                         <>
                             <p>{skill.skill}</p>
                             <div className="skill-bar-container">
-                                <LinearProgress color="warning" variant="determinate" value={skill.value} sx={{width: '85%'}}/>
+                                <LinearProgress color="warning" variant="determinate" value={returnNumber(skill.value)} sx={{width: '85%'}}/>
                                 {handleLabel(skill.value)}
                             </div>
                         </>
