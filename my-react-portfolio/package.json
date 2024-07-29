@@ -7,7 +7,7 @@
     "prod": "cd client && npm start", 
     "server": "cd server && npm run watch", 
     "seed": "node seeds/index.js",
-    "build": "react-scripts build",
+    "build": "cd client && npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
